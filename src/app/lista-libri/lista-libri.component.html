@@ -1,0 +1,23 @@
+<div *ngIf="errorMsg" class="mt-4">
+    {{errorMsg}}
+</div>
+
+<table *ngIf="!errorMsg" class="table table-danger table-bordered border-3 border-dark">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Titolo</th>
+            <th scope="col">Autore</th>
+            <th scope="col">Anno</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let libro of listaLibri">
+            <th scope="row">{{libro.id}}</th>
+            <td>{{libro.titolo}}</td>
+            <td>{{libro.autore}}</td>
+            <td>{{libro.anno}}</td>
+        </tr>
+
+    </tbody>
+</table>

@@ -1,0 +1,25 @@
+<div *ngIf="errorMsg" class="mt-4">
+    {{errorMsg}}
+</div>
+
+
+
+<table *ngIf="!errorMsg" class="table table-dark border-3">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Titolo</th>
+            <th scope="col">Regia</th>
+            <th scope="col">Anno</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let film of listaFilm">
+            <th scope="row">{{film.id}}</th>
+            <td>{{film.titolo}}</td>
+            <td>{{film.regia}}</td>
+            <td>{{film.anno}}</td>
+        </tr>
+
+    </tbody>
+</table>

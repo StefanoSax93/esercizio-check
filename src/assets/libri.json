@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "titolo": "Il Silmarillion",
+    "autore": "J.R. Tolkien",
+    "anno": "1975"
+  },
+  {
+    "id": "2",
+    "titolo": "The Witcher",
+    "autore": "Andrzej Sapkowski",
+    "anno": "1993"
+  },
+  {
+    "id": "3",
+    "titolo": "Heart of the sea",
+    "autore": "Nathaniel Philbrick",
+    "anno": "2008"
+  }
+]

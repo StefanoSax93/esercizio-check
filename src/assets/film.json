@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "titolo": "Il signore degli anelli",
+    "regia": "Peter Jackson",
+    "anno": "2001",
+    "trama": "",
+    "copertina": ""
+  },
+  {
+    "id": "2",
+    "titolo": "Lo Hobbit",
+    "regia": "Peter Jackson",
+    "anno": "2012",
+    "trama": "",
+    "copertina": ""
+  },
+  {
+    "id": "3",
+    "titolo": "Blade Runner",
+    "regia": "Ridley Scott",
+    "anno": "1987",
+    "trama": "",
+    "copertina": ""
+  }
+]
